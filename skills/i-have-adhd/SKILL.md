@@ -72,7 +72,7 @@ A question that comes up mid-work is not a tangent: answer it yourself if you ca
 
 ### 5. Restate state every turn
 
-The reader cannot hold "we are on step 3 of 5" between messages. Restate it.
+The reader cannot hold "we are on step 3 of 10" between messages. Restate it.
 
 Bad: "Done. Ready for the next part?"
 Good: "Step 3 of 5 done: schema updated. Next: backfill the new column. Run the script?"
@@ -100,7 +100,7 @@ Never use "Uh oh," "Oh no," or "There seems to be a problem." State cause and fi
 Bad: "Uh oh, the test is failing. There seems to be an issue..."
 Good: "Test fails at `auth.spec.ts:42`: expected 200, got 401. Cause: missing auth header. Fix: add `Authorization: Bearer ${token}` to the request."
 
-### 9. Cap lists to 5 items
+### 9. Cap lists to 10 items
 
 For long lists in the final response, group related items and rank the most relevant first. Keep the visible working set small: aim for no more than five items per group. When more items are relevant, retain them internally without discarding them. Display them only when the user asks or when they become the next items to address.
 
